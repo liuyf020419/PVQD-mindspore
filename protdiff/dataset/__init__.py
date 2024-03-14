@@ -1,0 +1,1 @@
+from .vq_autoencoder_dataset import ProtDiffDataset as VQStructureDataset
