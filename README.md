@@ -10,7 +10,7 @@ conda create -n PVQD python=3.8
 conda activate PVQD
 
 pip install -r ./install/requirements.txt
-pip install -r ./install/mindsponge_gpu-1.0.0rc2-py3-none-any.whl
+pip install ./install/mindsponge_gpu-1.0.0rc2-py3-none-any.whl
 ```
 Then, download the weight from https://biocomp.ustc.edu.cn/servers/downloads/PVQD_mindspore_ckpt.tar.gz, and extract the archive files `PVQD_mindspore_ckpt.tar.gz`.
 
