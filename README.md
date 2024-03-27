@@ -9,10 +9,10 @@ First, please install the depandencies of PVQD
 conda create -n PVQD python=3.8
 conda activate PVQD
 
-pip install -r ./install/requirements.txt
+pip install -r ./install/requirement.txt
 pip install ./install/mindsponge_gpu-1.0.0rc2-py3-none-any.whl
 ```
-Then, download the weight from https://biocomp.ustc.edu.cn/servers/downloads/PVQD_mindspore_ckpt.tar.gz, and extract the archive files `PVQD_mindspore_ckpt.tar.gz`.
+Then, download the weight from https://biocomp.ustc.edu.cn/servers/downloads/PVQD_mindspore_ckpt.tar.gz, and extract the archive files `PVQD_mindspore_ckpt.tar.gz` into the directory containing the project files (the same directory where the corresponding .sh files are located).
 
 
 ## Quick start
